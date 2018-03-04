@@ -1,3 +1,7 @@
+div {
+  border: 1px solid black;
+}
+
 *{
   padding: 0;
   margin: 0;
@@ -17,6 +21,8 @@ header {
   align-items: center;
   height: 80px;
   width: 100%;
+  background-color: white;
+  z-index: 1;
 }
 
 .logo {
@@ -49,4 +55,14 @@ nav span {
 
 a {
   color: black ;
+}
+
+.main {
+  display: flex;
+  padding-top: 100px;
+  width: 100%;
+}
+
+.column.large {
+  width: 630px;
 }
