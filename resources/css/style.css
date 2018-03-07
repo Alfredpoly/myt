@@ -65,7 +65,12 @@ nav span {
 a {
   color: black ;
 }
-
+h3  {
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 16px;
+  font-weight: bold;
+}
 .main {
   display: flex;
   padding-top: 100px;
@@ -139,4 +144,41 @@ a {
   flex-direction: column;
   justify-content: space-between;
   width: 300px;
+}
+.bite {
+  display: flex;
+  border-bottom: 1px solid black;
+  padding: 16px 16px;
+  margin: 0px;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+footer {
+  margin-top: 40px;
+  display: flex;
+  background-color: MediumAquamarine;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: 2px solid white;
+  padding-right: 20px;
+}
+.footer {
+  display: flex;
+}
+.footer nav {
+  padding-left: 20px;
+}
+.copyright {
+  padding-top: 20px;
 }
